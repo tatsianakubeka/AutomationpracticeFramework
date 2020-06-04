@@ -31,7 +31,7 @@ public class YourShoppingCartPage extends BasePage {
         if (matcher.find()) {
             System.out.println("Have found:   Blouse");
         } else {
-            System.out.println("Have not found: Blouse");
+            System.out.println("Have not found:    Blouse");
         }
     }
 
