@@ -29,7 +29,7 @@ public class YourShoppingCartPage extends BasePage {
         Pattern pattern = Pattern.compile("Blouse");
         Matcher matcher = pattern.matcher(text);
         if (matcher.find()) {
-            System.out.println("Have found:   Blouse");
+            System.out.println("Have found: Blouse");
         } else {
             System.out.println("Have not found:    Blouse");
         }
