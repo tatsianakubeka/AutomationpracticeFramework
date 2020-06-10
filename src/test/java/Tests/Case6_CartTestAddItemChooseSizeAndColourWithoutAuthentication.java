@@ -2,10 +2,10 @@ package Tests;
 
 import org.junit.Test;
 
-public class Case6_CartTestAddItemChooseSizeAndColour extends SampleTest{
+public class Case6_CartTestAddItemChooseSizeAndColourWithoutAuthentication extends SampleTest{
 
     @Test
-    public void case6_CartTestAddItemChooseSizeAndColour () {
+    public void case6_CartTestAddItemChooseSizeAndColourWithoutAuthentication () {
         user.mainPage.openMainPage();
         user.mainPage.clickOnMoreButtonItemBlouse();
         user.itemBlousePage.chooseSizeDropdown("M");
