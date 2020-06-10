@@ -6,7 +6,7 @@ import org.junit.Test;
 public class Case2_LoginTestWithValidEmailAndInvalidPassword extends SampleTest {
 
     @Test
-    public void case2_LoginTestWithValidEmailAndValidPassword() {
+    public void case2_LoginTestWithValidEmailAndInvalidPassword() {
         user.mainPage.openMainPage();
         user.mainPage.clickOnSignInButton();
         user.authenticationPage.checkTextOnAuthenticationPage();
